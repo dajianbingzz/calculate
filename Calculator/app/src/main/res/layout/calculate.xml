@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="6">
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center"
+        android:background="#E1FFCC"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/del"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="@string/txtdel"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/clear"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="@string/txtClear"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/plus"
+        android:layout_gravity="fill"
+        android:text="@string/txtPlus"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/txt7"
+        android:layout_gravity="fill"
+        android:text="@string/txt7"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/txt8"
+        android:layout_gravity="fill"
+        android:text="@string/txt8"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/txt9"
+        android:layout_gravity="fill"
+        android:text="@string/txt9"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/minus"
+        android:layout_gravity="fill"
+        android:text="@string/txtMinus"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/txt4"
+        android:layout_gravity="fill"
+        android:text="@string/txt4"
+        android:textSize="24sp"/>
+    <Button
+        android:id="@+id/txt5"
+        android:layout_gravity="fill"
+        android:text="@string/txt5"
+        android:textSize="24sp"/>
+    <Button
+        android:id="@+id/txt6"
+        android:textSize="24sp"
+        android:layout_gravity="fill"
+        android:text="@string/txt6" />
+    <Button
+        android:id="@+id/txtMul"
+        android:layout_gravity="fill"
+        android:text="@string/txtMul"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/txt1"
+        android:textSize="24sp"
+        android:layout_gravity="fill"
+        android:text="@string/txt1" />
+    <Button
+        android:id="@+id/txt2"
+        android:textSize="24sp"
+        android:layout_gravity="fill"
+        android:text="@string/txt2" />
+    <Button
+        android:id="@+id/txt3"
+        android:textSize="24sp"
+        android:layout_gravity="fill"
+        android:text="@string/txt3" />
+    <Button
+        android:id="@+id/div"
+        android:textSize="24sp"
+        android:layout_gravity="fill"
+        android:text="@string/txtDiv" />
+    <Button
+        android:id="@+id/dot"
+        android:textSize="24sp"
+        android:layout_gravity="fill"
+        android:text="@string/txtDot" />
+    <Button
+        android:id="@+id/txt0"
+        android:textSize="24sp"
+        android:layout_gravity="fill"
+        android:text="@string/txt0" />
+    <Button
+        android:id="@+id/equ"
+        android:textSize="24sp"
+        android:layout_gravity="fill"
+
+    android:text="@string/txtEqu" />
+</GridLayout>
